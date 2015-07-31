@@ -1,0 +1,19 @@
+{
+  "name": "is-css-combinator",
+  "version": "0.0.1",
+  "description": "Check if a string is CSS combinator",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/is-css-combinator/git"
+  },
+  "keywords": ["css","is","selector","combinator"],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
