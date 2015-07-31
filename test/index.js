@@ -1,6 +1,20 @@
 var test = require('tape')
-var is-css-combinator = require('..')
+var isCombinator = require('..')
 
-test('description', function (t) {
+test('+', function (t) {
+    var str = '+'
+    t.equal(isCombinator(str), true)
+    t.end()
+})
+
+test('>', function (t) {
+    var str = '>'
+    t.equal(isCombinator(str), true)
+    t.end()
+})
+
+test('~', function (t) {
+    var str = '~'
+    t.equal(isCombinator(str), true)
     t.end()
 })
