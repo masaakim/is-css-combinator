@@ -10,6 +10,15 @@ $ npm install is-css-combinator
 
 ## Usage
 
+```js
+var isCombinator = require('is-css-combinator')
+
+isCombinator('+') // true
+isCombinator('>') // true
+isCombinator('~') // true
+isCombinator('-') // false
+```
+
 ## License
 
 The MIT License (MIT)
